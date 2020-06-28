@@ -43,7 +43,7 @@ async function onMessage(message)
 				case "inv":
 					if(message.member.hasPermission(Discord.Permissions.ALL))
 					{
-						message.reply('Copy that!');
+						message.reply('تم النسخ');
 						let members = await message.guild.members.fetch();
 						var sentsuccess = 0;
 						var bots = 0;
