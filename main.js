@@ -70,7 +70,7 @@ async function onMessage(message)
 								console.log(exception);
 							}
 						});
-						message.channel.send("تم الارسل ل " + sentsuccess + "عضو");
+						message.channel.send("عدد الاعضاء المستلمين: " + sentsuccess + ".");
 					}
 					else
 					{
