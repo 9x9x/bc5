@@ -70,7 +70,7 @@ async function onMessage(message)
 								console.log(exception);
 							}
 						});
-						message.channel.send("تم الارسل ل " + sentsuccess + "/" + (message.guild.memberCount - bots) + ".");
+						message.channel.send("تم الارسل ل " + sentsuccess + "عضو");
 					}
 					else
 					{
